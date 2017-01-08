@@ -30,12 +30,16 @@ ionic serve
 ```
 
 ## Publish
+### Android
 ```
-ionic add platform android
-ionic add platform ios
-```
-```
+ionic platform add android
 ionic run android
+```
+### IOS
+```
+npm install -g ios-deploy
+npm install -g ios-sim version
+ionic platform add ios
 ionic run ios
 ```
 
