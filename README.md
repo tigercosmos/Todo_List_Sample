@@ -22,6 +22,7 @@ npm install -g typescript
 git clone https://github.com/tigercosmos/Todo_List_Sample.git
 cd TODO_List_Sample
 npm install
+ionic state reset
 ```
 
 ## Preview
